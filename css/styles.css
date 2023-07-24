@@ -107,4 +107,36 @@ img {
 
 #contact {
   margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 576px) {
+    .first-page-photos{
+        display: none;
+    }
+    p{
+        text-align: center;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .button-launch{
+        text-align: center;
+    }
+
+    .button-launch a{
+        padding: 20px 60px;
+    }
+
+    #Mina{
+        font-size: 70px;
+    }
+
+    #contact h2{
+        font-size: 38px;
+    }
+
+
 }
